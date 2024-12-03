@@ -18,6 +18,7 @@ fun runAll() {
     val timeInMillis = measureTimeMillis {
         Day1().solve()
         Day2().solve()
+        Day3().solve()
     }
     println("All solved in $timeInMillis ms")
 }
