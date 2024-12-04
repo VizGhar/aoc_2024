@@ -7,8 +7,8 @@ abstract class Day {
     protected abstract fun partB(): String
     fun solve() {
         val timeInMillis = measureTimeMillis {
-            runCatching { println(partA()) }
-            runCatching { println(partB()) }
+            runCatching { println(partA()) }.exceptionOrNull()?.printStackTrace()
+            runCatching { println(partB()) }.exceptionOrNull()?.printStackTrace()
         }
         println("Day ${this::class.simpleName!!.takeLastWhile { it.isDigit() }} solved in $timeInMillis ms")
     }
@@ -19,6 +19,7 @@ fun runAll() {
         Day1().solve()
         Day2().solve()
         Day3().solve()
+        Day4().solve()
     }
     println("All solved in $timeInMillis ms")
 }
