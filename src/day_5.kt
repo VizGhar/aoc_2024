@@ -24,13 +24,13 @@ class Day5 : Day() {
     override fun partB() = transformedInput.updates.mapNotNull { update ->
         val mutable = update.toMutableList()
         while (true) {
-            val item = transformedInput.orders.firstOrNull { order ->
+            val (a, b) = transformedInput.orders.firstOrNull { order ->
                 mutable.indexOf(order.first) > (mutable.indexOf(order.second).takeIf { it != -1 } ?: Int.MAX_VALUE)
             } ?: break
-            val index1 = mutable.indexOf(item.first)
-            val index2 = mutable.indexOf(item.second)
-            mutable[index2] = item.first
-            mutable[index1] = item.second
+            val index1 = mutable.indexOf(a)
+            val index2 = mutable.indexOf(b)
+            mutable[index2] = a
+            mutable[index1] = b
         }
         mutable.takeIf { it != update }
     }.sumOf { it[it.size / 2] }.toString()

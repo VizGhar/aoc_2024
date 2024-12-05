@@ -9,11 +9,6 @@ class Day2 : Day() {
     override fun partA() = transformedInput.count { it.isOk() }.toString()
 
     override fun partB() = transformedInput.count { list ->
-        list.indices.any { index ->
-            list.toMutableList().let {
-                it.removeAt(index)
-                it.isOk()
-            }
-        }
+        list.indices.any { index -> (list.take(index) + list.drop(index + 1)).isOk() }
     }.toString()
 }

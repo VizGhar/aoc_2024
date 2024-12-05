@@ -3,10 +3,7 @@ import kotlin.math.absoluteValue
 class Day1 : Day() {
 
     private val transformedInput by lazy {
-        val l = input.map { it.split(" ").filter { it.isNotEmpty() }.map { it.toInt() } }
-        val l1 = l.map { it[0] }
-        val l2 = l.map { it[1] }
-        l1 to l2
+        input.map { it.split("   ").map { it.toInt() }.let { it[0] to it[1] } }.unzip()
     }
 
     override fun partA() = transformedInput.let { (l1, l2) ->
