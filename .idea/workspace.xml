@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c12badaf-4bf6-49af-ad30-6b27ba23d1df" name="Changes" comment="Day 6">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_6.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pcoF46Oo96h2gFT8wVBZSNmtYM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Kotlin.Aoc2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jankandrac/Development/AOC2024&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/inputs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="Day_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day_2Kt" />
+      <module name="AOC2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="untitled4.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.Day_2Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c12badaf-4bf6-49af-ad30-6b27ba23d1df" name="Changes" comment="" />
+      <created>1733074619346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733074619346</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Day 1">
+      <option name="closed" value="true" />
+      <created>1733145714279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733145714279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1733145972373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733145972373</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 3">
+      <option name="closed" value="true" />
+      <created>1733236405213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733236405213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 4">
+      <option name="closed" value="true" />
+      <created>1733291070299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733291070299</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day 5 [WIP]">
+      <option name="closed" value="true" />
+      <created>1733390970737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733390970737</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 5 [WIP]">
+      <option name="closed" value="true" />
+      <created>1733401481604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733401481604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Day 5 [WIP]">
+      <option name="closed" value="true" />
+      <created>1733401490393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733401490393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Day 1 edit">
+      <option name="closed" value="true" />
+      <created>1733401614930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733401614930</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Day 1-5 refactor">
+      <option name="closed" value="true" />
+      <created>1733407242523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733407242523</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Day 1-5 refactor">
+      <option name="closed" value="true" />
+      <created>1733414938295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733414938295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Day 1-5 refactor">
+      <option name="closed" value="true" />
+      <created>1733414949736</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733414949736</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Day 6">
+      <option name="closed" value="true" />
+      <created>1733491188294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733491188294</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Day 6">
+      <option name="closed" value="true" />
+      <created>1733505616434</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733505616434</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1" />
+    <MESSAGE value="Day 2" />
+    <MESSAGE value="Day 3" />
+    <MESSAGE value="Day 4" />
+    <MESSAGE value="Day 5" />
+    <MESSAGE value="Day 5 [WIP]" />
+    <MESSAGE value="Day 1 edit" />
+    <MESSAGE value="Day 1-5 refactor" />
+    <MESSAGE value="Day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
+  </component>
+</project>
