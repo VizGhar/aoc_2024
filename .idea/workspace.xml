@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12badaf-4bf6-49af-ad30-6b27ba23d1df" name="Changes" comment="Day 6">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day_7.kt" afterDir="false" />
+    <list default="true" id="c12badaf-4bf6-49af-ad30-6b27ba23d1df" name="Changes" comment="Day6 improvement-todo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day_7.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build AOC2024.executor": "Run",
     "Kotlin.Aoc2Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -241,6 +241,35 @@
     <MESSAGE value="Day 1 edit" />
     <MESSAGE value="Day 1-5 refactor" />
     <MESSAGE value="Day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
+    <MESSAGE value="Day6 improvement-todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day6 improvement-todo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day_7.kt</url>
+          <line>51</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day_7.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="current !=0L" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day_7.kt</url>
+          <line>29</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

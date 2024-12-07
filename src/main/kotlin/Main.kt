@@ -28,5 +28,5 @@ fun runAll() {
 }
 
 fun main() {
-    Day7().solve()
+    runAll()
 }
