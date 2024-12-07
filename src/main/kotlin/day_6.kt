@@ -1,5 +1,3 @@
-import kotlinx.coroutines.*
-
 class Day6 : Day() {
 
     // Left = 0; Top = 1; Right = 2; Bottom = 3
@@ -38,12 +36,10 @@ class Day6 : Day() {
 
     override fun partA() = visits().size.toString()
 
-    override fun partB() = runBlocking {
-        withContext(Dispatchers.Default) {
-            (visits() - (transformedInput.startX to transformedInput.startY))
-                .map { async { visits(it).isEmpty() } }
-                .awaitAll()
-                .count { it }
-        }.toString()
-    }
+    override fun partB() =
+        (visits() - (transformedInput.startX to transformedInput.startY))
+            .asyncMap { visits(it).isEmpty() }
+            .count { it }
+            .toString()
+
 }
