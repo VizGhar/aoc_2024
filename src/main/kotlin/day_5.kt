@@ -21,7 +21,7 @@ class Day5 : Day() {
             }
     }.sumOf { it[it.size / 2] }.toString()
 
-    override fun partB() = transformedInput.updates.mapNotNull { update ->
+    override fun partB() = transformedInput.updates.sumOf { update ->
         val mutable = update.toMutableList()
         while (true) {
             val (a, b) = transformedInput.orders.firstOrNull { order ->
@@ -32,6 +32,6 @@ class Day5 : Day() {
             mutable[index2] = a
             mutable[index1] = b
         }
-        mutable.takeIf { it != update }
-    }.sumOf { it[it.size / 2] }.toString()
+        mutable.takeIf { it != update }?.let { it[it.size / 2] } ?: 0
+    }.toString()
 }

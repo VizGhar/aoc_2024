@@ -12,8 +12,9 @@ class Day3 : Day() {
 
     override fun partB() = "do\\(\\)|don't\\(\\)".toRegex().findAll(transformedInput)
         .zipWithNext()
-        .mapNotNull { (prev, curr) -> (prev.range.first..curr.range.first).takeIf { prev.value == "do()" } }
-        .run { multiply(multiplications.filter { mul -> this.any { it.contains(mul.range.first) } }) }
+        .mapNotNull { (prev, curr) -> (prev.range.first..curr.range.first).takeIf { prev.value == "do()" }?.let {
+            multiply(multiplications.filter { mul -> it.contains(mul.range.first) })
+        } }.sum()
         .toString()
 
 }

@@ -10,6 +10,7 @@ class Day4 : Day() {
 
     override fun partB() = (1..<input.size - 1).sumOf { y ->
         (1..<input[0].length - 1).count { x ->
+            input[y][x] == 'A' &&
             "${input[y-1][x-1]}${input[y][x]}${input[y+1][x+1]}" in listOf("MAS", "SAM") &&
             "${input[y-1][x+1]}${input[y][x]}${input[y+1][x-1]}" in listOf("MAS", "SAM")
         }
