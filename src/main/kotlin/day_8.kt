@@ -1,5 +1,3 @@
-typealias Position = Pair<Int, Int>
-
 class Day8 : Day() {
 
     private data class Antenna(val x: Int, val y: Int, val c: Char)
@@ -23,7 +21,7 @@ class Day8 : Day() {
                     anitinodes(antennas[i], antennas[j], antennas[i].x - antennas[j].x, antennas[i].y - antennas[j].y)
                 }
             }.flatten().flatten().filter {
-                it.first in 0..<transformedInput.width && it.second in 0..<transformedInput.height
+                it.x in 0..<transformedInput.width && it.y in 0..<transformedInput.height
             }
         }.flatten().distinct().size
 
