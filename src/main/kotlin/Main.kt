@@ -29,6 +29,7 @@ fun runAll() {
         Day11().solve()
         Day12().solve()
         Day13().solve()
+        Day14().solve()
     }
     println("All solved in $timeInMillis ms")
 }
